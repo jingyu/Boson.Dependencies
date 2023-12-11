@@ -16,6 +16,9 @@
   <packaging>pom</packaging>
 
   <name>Boson dependencies versions</name>
+  <description>
+    The dependencies POM defines common dependencies and Boson artifacts for Boson projects.
+  </description>
   <url>https://github.com/bosonnetwork/Boson.Dependencies</url>
 
   <licenses>
@@ -25,6 +28,23 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <id>boson-network-dev</id>
+      <name>Boson Network</name>
+      <email>support@bosonnetwork.io</email>
+      <organization>BosonNetwork</organization>
+      <organizationUrl>https://github.com/bosonnetwork</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <properties>
+        <picUrl>https://avatars.githubusercontent.com/u/152134507</picUrl>
+      </properties>
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:git@github.com:bosonnetwork/Boson.Dependencies.git</connection>
