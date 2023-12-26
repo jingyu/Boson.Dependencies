@@ -8,11 +8,12 @@
     <groupId>io.bosonnetwork</groupId>
     <artifactId>boson-parent</artifactId>
     <version>3-SNAPSHOT</version>
+    <relativePath/>
   </parent>
 
   <groupId>io.bosonnetwork</groupId>
   <artifactId>boson-dependencies</artifactId>
-  <version>${boson.version}</version>
+  <version>2.0.8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Boson dependencies versions</name>
@@ -53,8 +54,6 @@
   </scm>
   
   <properties>
-    <boson.version>2.0.8-SNAPSHOT</boson.version>
-
     <vertx.version>4.5.0</vertx.version>
     <netty.version>4.1.101.Final</netty.version>
     <jackson.version>2.16.0</jackson.version>
@@ -74,37 +73,37 @@
       <dependency>
         <groupId>io.bosonnetwork</groupId>
         <artifactId>boson-api</artifactId>
-        <version>${boson.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>io.bosonnetwork</groupId>
         <artifactId>boson-dht</artifactId>
-        <version>${boson.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>io.bosonnetwork</groupId>
         <artifactId>boson-access-control</artifactId>
-        <version>${boson.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>io.bosonnetwork</groupId>
         <artifactId>boson-cmds</artifactId>
-        <version>${boson.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>io.bosonnetwork</groupId>
         <artifactId>boson-web-gateway</artifactId>
-        <version>${boson.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>io.bosonnetwork</groupId>
         <artifactId>boson-active-proxy</artifactId>
-        <version>${boson.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency>
