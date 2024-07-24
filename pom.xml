@@ -125,6 +125,12 @@
       </dependency>
 
       <dependency>
+        <groupId>io.bosonnetwork</groupId>
+        <artifactId>boson-messaging-client</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-dependencies</artifactId>
         <version>${vertx.version}</version>
