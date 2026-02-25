@@ -54,32 +54,32 @@
     </scm>
 
     <properties>
+        <vertx.version>5.0.8</vertx.version>
+        <netty.version>4.2.10.Final</netty.version>
+        <!--
         <vertx.version>4.5.21</vertx.version>
         <netty.version>4.1.125.Final</netty.version>
-        <!--
-        <vertx.version>5.0.4</vertx.version>
-        <netty.version>4.2.5.Final</netty.version>
         -->
         <jackson.version>2.18.2</jackson.version>
         <jspecify.version>1.0.0</jspecify.version>
         <guava.version>33.4.8-jre</guava.version>
-        <caffeine.version>3.1.8</caffeine.version>
+        <caffeine.version>3.2.3</caffeine.version>
         <tuweni.version>2.4.2</tuweni.version>
-        <micrometer.version>1.15.1</micrometer.version>
-        <jdbi.version>3.47.0</jdbi.version>
+        <micrometer.version>1.16.3</micrometer.version>
+        <jdbi.version>3.51.0</jdbi.version>
         <sqlite.version>3.49.1.0</sqlite.version>
-        <slf4j.version>2.0.16</slf4j.version>
-        <logback.version>1.5.19</logback.version>
-        <junit.version>5.11.4</junit.version>
-        <datafaker.version>2.4.3</datafaker.version>
+        <slf4j.version>2.0.17</slf4j.version>
+        <logback.version>1.5.32</logback.version>
+        <junit.version>5.13.4</junit.version>
+        <datafaker.version>2.5.3</datafaker.version>
 
         <h2.version>2.2.224</h2.version>
         <HikariCP.version>6.2.1</HikariCP.version>
         <metrics.version>4.2.29</metrics.version>
         <bugsnag.version>3.7.2</bugsnag.version>
 
-        <picocli.version>4.7.6</picocli.version>
-        <jline.version>3.29.0</jline.version>
+        <picocli.version>4.7.7</picocli.version>
+        <jline.version>3.30.6</jline.version>
     </properties>
 
     <dependencyManagement>
@@ -196,7 +196,7 @@
 
             <!--
               Force to use JNR-FFI 2.2.13,
-              override the version that depended by the Apache tuweni-crypto,
+              override the version that depended by the Apache tuweni-crypto;
               fix failed to load the libsodium shared library
              -->
             <dependency>
