@@ -66,7 +66,6 @@
         <caffeine.version>3.2.3</caffeine.version>
         <tuweni.version>2.4.2</tuweni.version>
         <micrometer.version>1.16.3</micrometer.version>
-        <jdbi.version>3.51.0</jdbi.version>
         <sqlite.version>3.49.1.0</sqlite.version>
         <slf4j.version>2.0.17</slf4j.version>
         <logback.version>1.5.32</logback.version>
@@ -205,22 +204,6 @@
                 <groupId>io.tmio</groupId>
                 <artifactId>tuweni-crypto</artifactId>
                 <version>${tuweni.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jdbi</groupId>
-                <artifactId>jdbi3-core</artifactId>
-                <version>${jdbi.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jdbi</groupId>
-                <artifactId>jdbi3-sqlobject</artifactId>
-                <version>${jdbi.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jdbi</groupId>
-                <artifactId>jdbi3-sqlite</artifactId>
-                <version>${jdbi.version}</version>
             </dependency>
 
             <dependency>
