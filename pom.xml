@@ -67,6 +67,7 @@
         <tuweni.version>2.4.2</tuweni.version>
         <micrometer.version>1.16.5</micrometer.version>
         <sqlite.version>3.53.0.0</sqlite.version>
+        <bucket4j.version>8.15.0</bucket4j.version>
         <slf4j.version>2.0.17</slf4j.version>
         <logback.version>1.5.32</logback.version>
         <junit.version>5.14.4</junit.version>
@@ -96,13 +97,19 @@
 
             <dependency>
                 <groupId>io.bosonnetwork</groupId>
-                <artifactId>boson-cmds</artifactId>
+                <artifactId>boson-dht-shell</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.bosonnetwork</groupId>
                 <artifactId>boson-web-gateway</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.bosonnetwork</groupId>
+                <artifactId>boson-ion-store</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -133,6 +140,12 @@
             <dependency>
                 <groupId>io.bosonnetwork</groupId>
                 <artifactId>boson-messaging-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.bosonnetwork</groupId>
+                <artifactId>boson-director</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -200,6 +213,17 @@
                 <groupId>io.tmio</groupId>
                 <artifactId>tuweni-crypto</artifactId>
                 <version>${tuweni.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.bucket4j</groupId>
+                <artifactId>bucket4j_jdk17-core</artifactId>
+                <version>${bucket4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bucket4j</groupId>
+                <artifactId>bucket4j_jdk17-caffeine</artifactId>
+                <version>${bucket4j.version}</version>
             </dependency>
 
             <dependency>
