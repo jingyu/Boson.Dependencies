@@ -65,6 +65,7 @@
         <guava.version>33.6.0-jre</guava.version>
         <caffeine.version>3.2.4</caffeine.version>
         <tuweni.version>2.4.2</tuweni.version>
+        <bouncycastle.version>1.84</bouncycastle.version>
         <micrometer.version>1.16.5</micrometer.version>
         <sqlite.version>3.53.0.0</sqlite.version>
         <bucket4j.version>8.15.0</bucket4j.version>
@@ -213,6 +214,12 @@
                 <groupId>io.tmio</groupId>
                 <artifactId>tuweni-crypto</artifactId>
                 <version>${tuweni.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcpkix-jdk18on</artifactId>
+                <version>${bouncycastle.version}</version>
             </dependency>
 
             <dependency>
