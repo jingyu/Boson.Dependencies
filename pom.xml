@@ -81,8 +81,13 @@
         <picocli.version>4.7.7</picocli.version>
         <jline.version>3.30.12</jline.version>
 
-        <error-prone.version>2.36.0</error-prone.version>
-        <nullaway.version>0.12.1</nullaway.version>
+        <!-- Pinned to the last JDK-17-compatible versions. The build runs on JDK 17, and:
+             - Error Prone 2.43.0+ requires JDK 21+ to run (2.42.0 is the last JDK-17 release).
+             - NullAway 0.12.11+ fails in JSpecify mode unless javac honors -XDaddTypeAnnotationsToSymbol,
+               which only works on JDK 21+ (JDK-8225377 backport); 0.12.10 is the last that runs on JDK 17.
+             To move to NullAway 0.13.x / Error Prone 2.5x, switch the build toolchain to JDK 21+. -->
+        <error-prone.version>2.42.0</error-prone.version>
+        <nullaway.version>0.12.10</nullaway.version>
     </properties>
 
     <dependencyManagement>
