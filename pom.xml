@@ -69,6 +69,7 @@
         <micrometer.version>1.16.5</micrometer.version>
         <sqlite.version>3.53.0.0</sqlite.version>
         <bucket4j.version>8.15.0</bucket4j.version>
+        <dnsjava.version>3.6.3</dnsjava.version>
         <slf4j.version>2.0.17</slf4j.version>
         <logback.version>1.5.32</logback.version>
         <junit.version>5.14.4</junit.version>
@@ -217,6 +218,12 @@
                 <groupId>com.github.ben-manes.caffeine</groupId>
                 <artifactId>caffeine</artifactId>
                 <version>${caffeine.version}</version>
+            </dependency>
+            <!-- RFC 2136 DNS UPDATE, used by the Active Proxy DDNS name provider. -->
+            <dependency>
+                <groupId>dnsjava</groupId>
+                <artifactId>dnsjava</artifactId>
+                <version>${dnsjava.version}</version>
             </dependency>
 
             <!--
