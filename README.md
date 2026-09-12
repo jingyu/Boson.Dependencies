@@ -31,7 +31,7 @@ Its purpose is to:
 | `boson-ion-store` | Ion Store layer-2 service |
 | `boson-active-proxy` | Active Proxy layer-2 service |
 | `boson-messaging` | Photon Messaging layer-2 service |
-| `higgs-java` | HiggsNode — light DHT node / WebGateway client |
+| `boson-higgs` | HiggsNode — light DHT node / WebGateway client |
 | `boson-active-proxy-client` | Active Proxy client library |
 | `boson-messaging-client` | Photon Messaging client library |
 | `boson-director` | Director service |

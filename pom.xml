@@ -137,7 +137,7 @@
 
             <dependency>
                 <groupId>io.bosonnetwork</groupId>
-                <artifactId>higgs-java</artifactId>
+                <artifactId>boson-higgs</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
