@@ -107,7 +107,7 @@
 
             <dependency>
                 <groupId>io.bosonnetwork</groupId>
-                <artifactId>boson-dht-shell</artifactId>
+                <artifactId>boson-dht-runner</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
