@@ -26,7 +26,10 @@ Its purpose is to:
 |---|---|
 | `boson-api` | Core API and crypto primitives |
 | `boson-dht` | Secure Kademlia DHT implementation (KadNode) |
-| `boson-dht-runner` | DHT bootstrap node launcher, its setup wizard, and the interactive developer shell |
+| `boson-cli-common` | Shared command line plumbing: root command wiring, output, exit codes, error reporting |
+| `boson-node` | The DHT node tool: runs a node, configures one, and the interactive developer shell |
+| `boson-cli` | The user and developer tool for a super node |
+| `boson-director-cli` | The operator tool for the Director's admin API |
 | `boson-web-gateway` | WebGateway layer-2 service (super node side) |
 | `boson-ion-store` | Ion Store layer-2 service |
 | `boson-active-proxy` | Active Proxy layer-2 service |
