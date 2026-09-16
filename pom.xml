@@ -105,9 +105,28 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <!-- The command line tools, which replace boson-dht-runner and the Rust tools. -->
             <dependency>
                 <groupId>io.bosonnetwork</groupId>
-                <artifactId>boson-dht-runner</artifactId>
+                <artifactId>boson-cli-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.bosonnetwork</groupId>
+                <artifactId>boson-node</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.bosonnetwork</groupId>
+                <artifactId>boson-cli</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.bosonnetwork</groupId>
+                <artifactId>boson-director-cli</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
